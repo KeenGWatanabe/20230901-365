@@ -62,7 +62,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='accountant functions<br>financial consultations<br>customized reports, data mining<br>corporate secretarial services<br>e-commerce setup, web development<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">services</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("appointment")>-1||inputText.toLowerCase().indexOf("discuss")>-1||inputText.toLowerCase().indexOf("meet")>-1){
-			document.getElementById("answer").innerHTML='Would you like to book an appointment? <a href="https://koalendar.com/e/meet-with-mckeen" target="_blank">book an appointment</a>';
+			document.getElementById("answer").innerHTML='Would you like to book an appointment? <a href="https://koalendar.com/e/meet-with-realty365" target="_blank">book an appointment</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("recruit")>-1||inputText.toLowerCase().indexOf("employ")>-1){
 			document.getElementById("answer").innerHTML='We are constantly on the lookout for suitable candidates with like-minded in tech and numbers pursuits.<br><a href="https://www.mckeen.sg/2023/05/job-listing.html" target="_blank">upload a CV</a>';
