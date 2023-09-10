@@ -59,7 +59,7 @@ function myFunction() {
 		}		
 	
 	else if(inputText.toLowerCase().indexOf("service")>-1){
-			document.getElementById("answer").innerHTML='accountant functions<br>financial consultations<br>customized reports, data mining<br>corporate secretarial services<br>e-commerce setup, web development<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">services</a>';
+			document.getElementById("answer").innerHTML='Singapore property market brief<br>financial consultation<br>projects sales<br>project research<br>resale marketing<br><a href="https://realty365homes.com" target="_blank">agent site</a><br><a href="http://realty365.mckeen.sg" target="_blank">agent blog</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("appointment")>-1||inputText.toLowerCase().indexOf("discuss")>-1||inputText.toLowerCase().indexOf("meet")>-1){
 			document.getElementById("answer").innerHTML='Would you like to book an appointment? <a href="https://koalendar.com/e/meet-with-realty365" target="_blank">book an appointment</a>';
