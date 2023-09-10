@@ -81,7 +81,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	
 	} else {
-	document.getElementById("answer").innerHTML='Not in our database yet, or out-of-scope for realty365<br><a href="mailto:realty365sg@gmail.com?cc=wev@mckeen.sg&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Realty365" target="_blank">email us your enquiry</a>';      
+	document.getElementById("answer").innerHTML='Not in our database yet, or out-of-scope for realty365<br><a href="mailto:realty365sg@gmail.com?cc=web@mckeen.sg&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Realty365" target="_blank">email us your enquiry</a>';      
 	}
 
 	
