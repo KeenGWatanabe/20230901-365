@@ -45,19 +45,9 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("analysis")>-1){
 			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">we do analysis</a>';
 		}	
-	else if(inputText.toLowerCase().indexOf("excel")>-1||inputText.toLowerCase().indexOf("sheet")>-1){
-			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2022/08/excel-design-applications.html" target="_blank">spreadsheet design</a>';
-		}
 	else if(inputText.toLowerCase().indexOf("customise")>-1||inputText.toLowerCase().indexOf("customize")>-1){
 			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2009/11/customization-of-any-reports.html" target="_blank">customise excel</a>';
 		}	
-	else if(inputText.toLowerCase().indexOf("corporate")>-1||inputText.toLowerCase().indexOf("secretar")>-1){
-			document.getElementById("answer").innerHTML='<a href="https://www.mckeen.sg/2022/09/corporate-secretary.html" target="_blank">corporate secretary</a>';	
-		}
-	else if(inputText.toLowerCase().indexOf("outsource")>-1||inputText.toLowerCase().indexOf("freelance")>-1){
-			document.getElementById("answer").innerHTML='Qualified accountant at the fraction of the full-time accountant, paying for a specialised function as you need.<br><a href="https://www.mckeen.sg/2010/07/outsource-accounting-to-many-small.html" target="_blank">outsource consultancy</a><br><a href="https://www.mckeen.sg/2009/05/specialisaton-in.html" target="_blank">accountant</a><br><a href="https://www.mckeen.sg/2023/05/job-listing.html" target="_blank">upload a CV</a>';
-		}		
-	
 	else if(inputText.toLowerCase().indexOf("service")>-1){
 			document.getElementById("answer").innerHTML='Singapore property market brief;<br>financial consultation;<br>projects sales;<br>project research;<br>resale marketing;<br><a href="https://realty365homes.com" target="_blank">agent site</a><br><a href="http://realty365.mckeen.sg" target="_blank">agent blog</a>';
 		}
@@ -70,12 +60,18 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("invest")>-1){
 			document.getElementById("answer").innerHTML="Here's 6 reasons why real estate is a great investment:<br>1.Earn passive income;<br>2.Diversification leads to increase stability;<br>3.Has high tangible asset value(depends on location);<br>4.Has always increase over time, inflation hedge;<br>5.Better returns than stocks without much volatility;<br>6. Wealth creation and legacy.";
 		}
-	else if(inputText.toLowerCase().indexOf("types of property")>-1||inputText.toLowerCase().indexOf("property types")>-1||inputText.toLowerCase().indexOf("type")>-1){
+	else if(inputText.toLowerCase().indexOf("types of")>-1||inputText.toLowerCase().indexOf("property type")>-1||inputText.toLowerCase().indexOf("type")>-1){
 			document.getElementById("answer").innerHTML='Classified into Residential and Commercial,<br>each has landed and non-landed titles,<br>tenures from freehold to leasehold,<br>depending on buyer residency status to be eligible for which type.<br><a href="http://realty365.mckeen.sg/2018/08/types-of-property-in-singapore.html" target="_blank">property types</a>';
 				}
-	else if(inputText.toLowerCase().indexOf("laws")>-1||inputText.toLowerCase().indexOf("hold property")>-1){
+	else if(inputText.toLowerCase().indexOf("owns")>-1||inputText.toLowerCase().indexOf("hold property")>-1||inputText.toLowerCase().indexOf("freehold")>-1||inputText.toLowerCase().indexOf("lease")>-1){
 			document.getElementById("answer").innerHTML='In Singapore, there are 5 types of grants available to hold property title.<br>1. Estate in fee simple(freehold)<br>2. Estate in perpetuity(freehold)<br>3. Leases between 7-99 years<br>4. Tenancy agreements<br>5. Temporary occupation licences(TOL)<br><a href="http://realty365.mckeen.sg/2018/08/what-laws-allow-you-to-own-property.html" target="_blank">What laws allow you to own property?</a>';
 				}
+	else if(inputText.toLowerCase().indexOf("ownership")>-1||inputText.toLowerCase().indexOf("company own")>-1){
+			document.getElementById("answer").innerHTML='There is strict definition in the residential property act that specifies ownership of properties, less restriction on commercial and industrial properties because these are usually on leasehold timeline corresponding with Singapore economic masterplan direction in decades of forward planning.<br><a href="http://realty365.mckeen.sg/2018/08/types-of-tenancy.html" target="_blank">Individual ownership types</a><br><a href="https://www.reitas.sg/reit-basics/what-is-a-real-estate-investment-trust-reit/" target="_blank">Owning commercial properties</a>';
+				}
+	else if(inputText.toLowerCase().indexOf("laws")>-1||inputText.toLowerCase().indexOf("protect")>-1||inputText.toLowerCase().indexOf("title")>-1){
+			document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>';
+				}	
 //template codes		
 	else if(inputText.toLowerCase().indexOf("x")>-1){
 		document.getElementById("answer").innerHTML="";
@@ -87,7 +83,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	
 	} else {
-	document.getElementById("answer").innerHTML='Not in our database yet, or out-of-scope for realty365<br><a href="mailto:realty365sg@gmail.com?cc=web@mckeen.sg&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Realty365" target="_blank">email us your enquiry</a>';      
+	document.getElementById("answer").innerHTML='Please rephrase your query,<br> not in our database yet,<br> or out-of-scope for realty365<br><a href="mailto:realty365sg@gmail.com?cc=web@mckeen.sg&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Realty365" target="_blank">email us your enquiry</a>';      
 	}
 
 	
