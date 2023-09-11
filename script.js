@@ -59,17 +59,23 @@ function myFunction() {
 		}		
 	
 	else if(inputText.toLowerCase().indexOf("service")>-1){
-			document.getElementById("answer").innerHTML='Singapore property market brief<br>financial consultation<br>projects sales<br>project research<br>resale marketing<br><a href="https://realty365homes.com" target="_blank">agent site</a><br><a href="http://realty365.mckeen.sg" target="_blank">agent blog</a>';
+			document.getElementById("answer").innerHTML='Singapore property market brief;<br>financial consultation;<br>projects sales;<br>project research;<br>resale marketing;<br><a href="https://realty365homes.com" target="_blank">agent site</a><br><a href="http://realty365.mckeen.sg" target="_blank">agent blog</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("appointment")>-1||inputText.toLowerCase().indexOf("discuss")>-1||inputText.toLowerCase().indexOf("meet")>-1){
 			document.getElementById("answer").innerHTML='Would you like to book an appointment? <a href="https://koalendar.com/e/meet-with-realty365" target="_blank">book an appointment</a>';
 		}
-	else if(inputText.toLowerCase().indexOf("recruit")>-1||inputText.toLowerCase().indexOf("employ")>-1){
-			document.getElementById("answer").innerHTML='We are constantly on the lookout for suitable candidates with like-minded in tech and numbers pursuits.<br><a href="https://www.mckeen.sg/2023/05/job-listing.html" target="_blank">upload a CV</a>';
-		}
 	else if(inputText.toLowerCase().indexOf("hle")>-1||inputText.toLowerCase().indexOf("loan eligibility")>-1){
-			document.getElementById("answer").innerHTML='HFE letter streamlines eligibility checks for flat purchase, housing grants and HDB housing loans into one single application.From 9 May 2023, HDB will introduce a new HDB Flat Eligibility (HFE) letter to provide flat buyers with a holistic understanding and assessment of their housing and financing options before they commence their home buying journey. <br><a href="https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/press-releases/28042023-New-HDB-Flat-Eligibility-Letter" target="_blank">HDB Eligibility</a><br>Private property loans are subject to individual banking arrangements, comparisons is not useful, because of banking relationships between banks to individual clients.  Alternative financing from stocks, assets liquidations calculations, best seek fiancial consultation with a customized financial calculator.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property fiancial analysis</a>';
+			document.getElementById("answer").innerHTML='HFE letter streamlines eligibility checks for flat purchase, housing grants and HDB housing loans into one single application.From 9 May 2023, HDB will introduce a new HDB Flat Eligibility (HFE) letter to provide flat buyers with a holistic understanding and assessment of their housing and financing options before they commence their home buying journey. <br><a href="https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/press-releases/28042023-New-HDB-Flat-Eligibility-Letter" target="_blank">HDB Eligibility</a><br>Private property loans are subject to individual banking arrangements, comparisons is not useful, because of banking relationships between banks to individual clients.  Alternative financing from stocks, assets liquidations calculations, best seek financial consultation with a customized financial calculator.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property fiancial analysis</a>';
 		}
+	else if(inputText.toLowerCase().indexOf("invest")>-1){
+			document.getElementById("answer").innerHTML="Here's 6 reasons why real estate is a great investment:<br>1.Earn passive income;<br>2.Diversification leads to increase stability;<br>3.Has high tangible asset value(depends on location);<br>4.Has always increase over time, inflation hedge;<br>5.Better returns than stocks without much volatility;<br>6. Wealth creation and legacy.";
+		}
+	else if(inputText.toLowerCase().indexOf("types of property")>-1||inputText.toLowerCase().indexOf("property types")>-1||inputText.toLowerCase().indexOf("type")>-1){
+			document.getElementById("answer").innerHTML='Classified into Residential and Commercial,<br>each has landed and non-landed titles,<br>tenures from freehold to leasehold,<br>depending on buyer residency status to be eligible for which type.<br><a href="http://realty365.mckeen.sg/2018/08/types-of-property-in-singapore.html" target="_blank">property types</a>';
+				}
+	else if(inputText.toLowerCase().indexOf("laws")>-1||inputText.toLowerCase().indexOf("hold property")>-1){
+			document.getElementById("answer").innerHTML='In Singapore, there are 5 types of grants available to hold property title.<br>1. Estate in fee simple(freehold)<br>2. Estate in perpetuity(freehold)<br>3. Leases between 7-99 years<br>4. Tenancy agreements<br>5. Temporary occupation licences(TOL)<br><a href="http://realty365.mckeen.sg/2018/08/what-laws-allow-you-to-own-property.html" target="_blank">What laws allow you to own property?</a>';
+				}
 //template codes		
 	else if(inputText.toLowerCase().indexOf("x")>-1){
 		document.getElementById("answer").innerHTML="";
