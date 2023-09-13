@@ -40,10 +40,10 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("couple")>-1||inputText.toLowerCase().indexOf("family")>-1){
 			document.getElementById("answer").innerHTML='Similar to individual consultation, couple financial health management makes sense, as its easier to achieve family goals when all financial commitments are in sync between couples.For the Financial consultation, client will provide the principal consultant the financial data from a checklist before the meeting. We will ensure confidentiality of the client and will not disclose client’s financial information to another party apart from the Principal Consultant. There will be an analysis of client’s financial data, construction of Financial Health report, recommendations of enhancements and changes to take place, etc.<br><a href="https://www.mckeen.sg/2022/10/financialconsultation368.html" target="_blank">couple consultation</a>';
 		}
-	else if(inputText.toLowerCase().indexOf("property")||inputText.toLowerCase().indexOf("estate")>-1){
+	else if(inputText.toLowerCase().indexOf("buy")>-1||inputText.toLowerCase().indexOf("estate")>-1||inputText.toLowerCase().indexOf("sell")>-1||inputText.toLowerCase().indexOf("purchas")>-1||inputText.toLowerCase().indexOf("sale")>-1){
 			document.getElementById("answer").innerHTML='Property transactions consultation provides you a financial budget review and analysis as well as current financial standing versus invested-in decisions. You will understand your financial standing better, in this way, you will be able to make forward planning and make informed decisions that will benefit your decision.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property consultation</a><br>';
 		}
-	else if(inputText.toLowerCase().indexOf("analysis")>-1){
+	else if(inputText.toLowerCase().indexOf("analys")>-1){
 			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">we do analysis</a>';
 		}	
 		
@@ -73,7 +73,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='Classified into Residential and Commercial,<br>each has landed and non-landed titles,<br>tenures from freehold to leasehold,<br>depending on buyer residency status to be eligible for which type.<br><a href="http://realty365.mckeen.sg/2018/08/types-of-property-in-singapore.html" target="_blank">property types</a>';
 				}
 //PTY LAWS
-	else if(inputText.toLowerCase().indexOf("owns")>-1||inputText.toLowerCase().indexOf("hold property")>-1||inputText.toLowerCase().indexOf("freehold")>-1||inputText.toLowerCase().indexOf("lease")>-1){
+	else if(inputText.toLowerCase().indexOf("owns")>-1||inputText.toLowerCase().indexOf("hold property")||inputText.toLowerCase().indexOf("freehold")>-1||inputText.toLowerCase().indexOf("lease")>-1){
 			document.getElementById("answer").innerHTML='In Singapore, there are 5 types of grants available to hold property title.<br>1. Estate in fee simple(freehold)<br>2. Estate in perpetuity(freehold)<br>3. Leases between 7-99 years<br>4. Tenancy agreements<br>5. Temporary occupation licences(TOL)<br><a href="http://realty365.mckeen.sg/2018/08/what-laws-allow-you-to-own-property.html" target="_blank">What laws allow you to own property?</a>';
 				}
 //TENANCY TYPES
