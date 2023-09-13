@@ -73,7 +73,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='Classified into Residential and Commercial,<br>each has landed and non-landed titles,<br>tenures from freehold to leasehold,<br>depending on buyer residency status to be eligible for which type.<br><a href="http://realty365.mckeen.sg/2018/08/types-of-property-in-singapore.html" target="_blank">property types</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("definition of")>-1||inputText.toLowerCase().indexOf("size")>-1||inputText.toLowerCase().indexOf("specif")>-1){
-			document.getElementById("answer").innerHTML='<a href="http://realty365.mckeen.sg/2018/08/landed-housing-definitions.html" target="_blank">housing definition</a>';
+			document.getElementById("answer").innerHTML='Land size (SLA term) = Plot size = Site area (URA term)<br><a href="http://realty365.mckeen.sg/2018/08/landed-housing-definitions.html" target="_blank">housing definition</a>';
 		}	
 			
 //PTY LAWS
