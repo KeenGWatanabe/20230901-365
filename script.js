@@ -71,7 +71,11 @@ function myFunction() {
 //PTY TYPES
 	else if(inputText.toLowerCase().indexOf("types of")>-1||inputText.toLowerCase().indexOf("property type")>-1||inputText.toLowerCase().indexOf("type")>-1){
 			document.getElementById("answer").innerHTML='Classified into Residential and Commercial,<br>each has landed and non-landed titles,<br>tenures from freehold to leasehold,<br>depending on buyer residency status to be eligible for which type.<br><a href="http://realty365.mckeen.sg/2018/08/types-of-property-in-singapore.html" target="_blank">property types</a>';
-				}
+		}
+	else if(inputText.toLowerCase().indexOf("definition of")>-1||inputText.toLowerCase().indexOf("size")>-1||inputText.toLowerCase().indexOf("specif")>-1){
+			document.getElementById("answer").innerHTML='<a href="http://realty365.mckeen.sg/2018/08/landed-housing-definitions.html" target="_blank">housing definition</a>';
+		}	
+			
 //PTY LAWS
 	else if(inputText.toLowerCase().indexOf("owns")>-1||inputText.toLowerCase().indexOf("hold property")||inputText.toLowerCase().indexOf("freehold")>-1||inputText.toLowerCase().indexOf("lease")>-1){
 			document.getElementById("answer").innerHTML='In Singapore, there are 5 types of grants available to hold property title.<br>1. Estate in fee simple(freehold)<br>2. Estate in perpetuity(freehold)<br>3. Leases between 7-99 years<br>4. Tenancy agreements<br>5. Temporary occupation licences(TOL)<br><a href="http://realty365.mckeen.sg/2018/08/what-laws-allow-you-to-own-property.html" target="_blank">What laws allow you to own property?</a>';
