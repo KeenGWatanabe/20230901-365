@@ -15,6 +15,9 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("people need")>-1){
 			document.getElementById("answer").innerHTML='Generally, peace gives people the best life.  Without it, people cant seems to find time to focus really well.  People who have peace, live for themselves, some create, some self-improve, some help others...<br><a href="https://sinkapoor.blogspot.com/p/authentic-life-article.html" target="_blank">authentic life characters</a>';
 		}
+	else if(inputText.toLowerCase().indexOf("real life")>-1){
+			document.getElementById("answer").innerHTML="Here is my take on what makes a good life, we all know material pursuits is a temptation that does not lead us to peace.  The world is built around shortchanging your desires to make you consume for the economy.  Very few countries truely create peace for its people.<br>1.Find your peace;<br>2.After that create harmony in your space;<br>3.With both these in place, it is hoped you find your true self and to enjoy your life.";
+				}	
 	else if(inputText.toLowerCase().indexOf("god")>-1){
 		document.getElementById("answer").innerHTML='<a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20thatexistence%20of%20an%20omnipotent%20being."  target="_blank">A scientist has calculated that there is a 67% chance that God exists</a>'; 
 		}
