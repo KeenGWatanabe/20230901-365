@@ -15,11 +15,11 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("people need")>-1){
 			document.getElementById("answer").innerHTML='Generally, peace gives people the best life.  Without it, people cant seems to find time to focus really well.  People who have peace, live for themselves, some create, some self-improve, some help others...<br><a href="https://sinkapoor.blogspot.com/p/authentic-life-article.html" target="_blank">authentic life characters</a>';
 		}
-	else if(inputText.toLowerCase().indexOf("real life")>-1){
+	else if(inputText.toLowerCase().indexOf("real life")>-1||inputText.toLowerCase().indexOf("good life")>-1){
 			document.getElementById("answer").innerHTML="Here is my take on what makes a good life, we all know material pursuits is a temptation that does not lead us to peace.  The world is built around shortchanging your desires to make you consume for the economy.  Very few countries truely create peace for its people.<br>1.Find your peace;<br>2.After that create harmony in your space;<br>3.With both these in place, it is hoped you find your true self and to enjoy your life.";
 				}	
 	else if(inputText.toLowerCase().indexOf("god")>-1){
-		document.getElementById("answer").innerHTML='<a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20thatexistence%20of%20an%20omnipotent%20being."  target="_blank">A scientist has calculated that there is a 67% chance that God exists</a>'; 
+		document.getElementById("answer").innerHTML='A scientist has calculated that there is a 67% chance that God exists<br><a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20thatexistence%20of%20an%20omnipotent%20being."  target="_blank">the guardian article</a>'; 
 		}
 	else if(inputText.toLowerCase().indexOf("the developer")>-1){
 		document.getElementById("answer").innerHTML='my software design philosopy, it always works!<br><a href="http://web.mckeen.sg" target="_blank">developer</a>'; 
@@ -44,10 +44,10 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='Similar to individual consultation, couple financial health management makes sense, as its easier to achieve family goals when all financial commitments are in sync between couples.For the Financial consultation, client will provide the principal consultant the financial data from a checklist before the meeting. We will ensure confidentiality of the client and will not disclose client’s financial information to another party apart from the Principal Consultant. There will be an analysis of client’s financial data, construction of Financial Health report, recommendations of enhancements and changes to take place, etc.<br><a href="https://www.mckeen.sg/2022/10/financialconsultation368.html" target="_blank">couple consultation</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("buy")>-1||inputText.toLowerCase().indexOf("estate")>-1||inputText.toLowerCase().indexOf("sell")>-1||inputText.toLowerCase().indexOf("purchas")>-1||inputText.toLowerCase().indexOf("sale")>-1){
-			document.getElementById("answer").innerHTML='Property transactions consultation provides you a financial budget review and analysis as well as current financial standing versus invested-in decisions. You will understand your financial standing better, in this way, you will be able to make forward planning and make informed decisions that will benefit your decision.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property consultation</a><br>';
+			document.getElementById("answer").innerHTML='Property transactions consultation provides you a financial budget review. Analysing current financial standing and extrapolate into forecast financial future, averaging inflation plus future commitments. You will understand your financial standing better, in this way, you will be able to make informed decisions that will benefit your future.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property consultation</a><br>';
 		}
 	else if(inputText.toLowerCase().indexOf("analys")>-1){
-			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">we do analysis</a>';
+			document.getElementById("answer").innerHTML='Wwe can do customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">we do analysis</a>';
 		}	
 		
 	else if(inputText.toLowerCase().indexOf("customise")>-1||inputText.toLowerCase().indexOf("customize")>-1){
@@ -56,7 +56,7 @@ function myFunction() {
 //EVALUATION ED
 //MKT BRIEF ST
 	else if(inputText.toLowerCase().indexOf("service")>-1){
-			document.getElementById("answer").innerHTML='Singapore property market brief;<br>financial consultation;<br>projects sales;<br>project research;<br>resale marketing;<br><a href="https://realty365homes.com" target="_blank">agent site</a><br><a href="http://realty365.mckeen.sg" target="_blank">agent blog</a>';
+			document.getElementById("answer").innerHTML='Singapore property market brief;<br>financial consultation;<br>project sales;<br>project research;<br>resale marketing;<br><a href="https://realty365homes.com" target="_blank">agent site</a><br><a href="http://realty365.mckeen.sg" target="_blank">agent blog</a><br>Would you like to book an appointment? <a href="https://koalendar.com/e/meet-with-realty365" target="_blank">book an appointment</a>';
 		}
 //MKT BRIEF ST
 //CONTACT
@@ -65,7 +65,7 @@ function myFunction() {
 		}
 //FINANCING
 	else if(inputText.toLowerCase().indexOf("hle")>-1||inputText.toLowerCase().indexOf("loan eligibility")>-1){
-			document.getElementById("answer").innerHTML='HFE letter streamlines eligibility checks for flat purchase, housing grants and HDB housing loans into one single application.From 9 May 2023, HDB will introduce a new HDB Flat Eligibility (HFE) letter to provide flat buyers with a holistic understanding and assessment of their housing and financing options before they commence their home buying journey. <br><a href="https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/press-releases/28042023-New-HDB-Flat-Eligibility-Letter" target="_blank">HDB Eligibility</a><br>Private property loans are subject to individual banking arrangements, comparisons is not useful, because of banking relationships between banks to individual clients.  Alternative financing from stocks, assets liquidations calculations, best seek financial consultation with a customized financial calculator.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property fiancial analysis</a>';
+			document.getElementById("answer").innerHTML=`9 May 2023, HDB will introduce a new HDB Flat Eligibility (HFE) letter to provide flat buyers with a holistic understanding and assessment of their housing and financing options before they commence their home buying journey. <br><a href="https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/press-releases/28042023-New-HDB-Flat-Eligibility-Letter" target="_blank">HDB Eligibility</a><br>Private property loans are subject to individual banking arrangements, comparisons is not useful, because of banking relationships between banks to individual clients.  Alternative financing from stocks, assets liquidations calculations, best seek financial consultation with a customized financial calculator.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property fiancial analysis</a>`;
 		}
 //WHY PTY
 	else if(inputText.toLowerCase().indexOf("invest")>-1){
