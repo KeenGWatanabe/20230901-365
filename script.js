@@ -28,30 +28,30 @@ function myFunction() {
 		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a><br><a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
 		}
 		else if(inputText.toLowerCase().indexOf("web")>-1||inputText.toLowerCase().indexOf("development")>-1){
-			document.getElementById("answer").innerHTML='<a href="https://www.mckeen.sg/2022/10/webpagedevelopment1000.html" target="_blank">web services</a><br><a href="http://web.mckeen.sg" target="_blank">developer</a>';
+			document.getElementById("answer").innerHTML='<a href="https://blog.mckeen.sg/2022/10/webpagedevelopment1000.html" target="_blank">web services</a><br><a href="http://web.mckeen.sg" target="_blank">developer</a>';
 		}
 //CONVERSATION ED
 		
 //EVALUATION ST
 		else if(inputText.toLowerCase().indexOf("account")>-1||inputText.toLowerCase().indexOf("tax")>-1){
-			document.getElementById("answer").innerHTML='As a CPA accountant providing accounting services, Bookkeeping, GST and Tax filing services.  <br><a href="https://www.mckeen.sg/2010/11/home.html"  target="_blank">mckeen accounting</a>';	
+			document.getElementById("answer").innerHTML='As a CPA accountant providing accounting services, Bookkeeping, GST and Tax filing services.  <br><a href="https://blog.mckeen.sg/2010/11/home.html"  target="_blank">mckeen accounting</a>';	
 			}
 
 	else if(inputText.toLowerCase().indexOf("financial")>-1||inputText.toLowerCase().indexOf("consult")>-1){
-			document.getElementById("answer").innerHTML='As a CPA, can provide you with an overview, analysis and suggestions. Subsequently, clients can request for an Annual Financial Consultation. This provides a comprehensive yearly analysis to ensure that everything is going in the right direction for you for the current year. It will also incorporate current year recommendations for adjustments or changes.<br><a href="https://www.mckeen.sg/2022/10/financialconsultation188individual.html" target="_blank">financial consultation</a>';
+			document.getElementById("answer").innerHTML='As a CPA, can provide you with an overview, analysis and suggestions. Subsequently, clients can request for an Annual Financial Consultation. This provides a comprehensive yearly analysis to ensure that everything is going in the right direction for you for the current year. It will also incorporate current year recommendations for adjustments or changes.<br><a href="https://blog.mckeen.sg/2022/10/financialconsultation188individual.html" target="_blank">financial consultation</a>';
 		}	
 	else if(inputText.toLowerCase().indexOf("couple")>-1||inputText.toLowerCase().indexOf("family")>-1){
-			document.getElementById("answer").innerHTML='Similar to individual consultation, couple financial health management makes sense, as its easier to achieve family goals when all financial commitments are in sync between couples.For the Financial consultation, client will provide the principal consultant the financial data from a checklist before the meeting. We will ensure confidentiality of the client and will not disclose client’s financial information to another party apart from the Principal Consultant. There will be an analysis of client’s financial data, construction of Financial Health report, recommendations of enhancements and changes to take place, etc.<br><a href="https://www.mckeen.sg/2022/10/financialconsultation368.html" target="_blank">couple consultation</a>';
+			document.getElementById("answer").innerHTML='Similar to individual consultation, couple financial health management makes sense, as its easier to achieve family goals when all financial commitments are in sync between couples.For the Financial consultation, client will provide the principal consultant the financial data from a checklist before the meeting. We will ensure confidentiality of the client and will not disclose client’s financial information to another party apart from the Principal Consultant. There will be an analysis of client’s financial data, construction of Financial Health report, recommendations of enhancements and changes to take place, etc.<br><a href="https://blog.mckeen.sg/2022/10/financialconsultation368.html" target="_blank">couple consultation</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("buy")>-1||inputText.toLowerCase().indexOf("estate")>-1||inputText.toLowerCase().indexOf("sell")>-1||inputText.toLowerCase().indexOf("purchas")>-1||inputText.toLowerCase().indexOf("sale")>-1){
-			document.getElementById("answer").innerHTML='Property transactions consultation provides you a financial budget review. Analysing current financial standing and extrapolate into forecast financial future, averaging inflation plus future commitments. You will understand your financial standing better, in this way, you will be able to make informed decisions that will benefit your future.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property consultation</a><br>';
+			document.getElementById("answer").innerHTML='Property transactions consultation provides you a financial budget review. Analysing current financial standing and extrapolate into forecast financial future, averaging inflation plus future commitments. You will understand your financial standing better, in this way, you will be able to make informed decisions that will benefit your future.<br><a href="https://blog.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property consultation</a><br>';
 		}
 	else if(inputText.toLowerCase().indexOf("analys")>-1){
-			document.getElementById("answer").innerHTML='Wwe can do customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">we do analysis</a>';
+			document.getElementById("answer").innerHTML='We can do customized financial analysis on spreadsheets.<br><a href="https://blog.mckeen.sg/2008/12/bank-register-cheque-writer.html" target="_blank">we do analysis</a>';
 		}	
 		
 	else if(inputText.toLowerCase().indexOf("customise")>-1||inputText.toLowerCase().indexOf("customize")>-1){
-			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://www.mckeen.sg/2009/11/customization-of-any-reports.html" target="_blank">customise excel</a>';
+			document.getElementById("answer").innerHTML='Customized financial analysis on spreadsheets.<br><a href="https://blog.mckeen.sg/2009/11/customization-of-any-reports.html" target="_blank">customise excel</a>';
 		}	
 //EVALUATION ED
 //MKT BRIEF ST
@@ -65,7 +65,7 @@ function myFunction() {
 		}
 //FINANCING
 	else if(inputText.toLowerCase().indexOf("hle")>-1||inputText.toLowerCase().indexOf("loan eligibility")>-1){
-			document.getElementById("answer").innerHTML=`9 May 2023, HDB will introduce a new HDB Flat Eligibility (HFE) letter to provide flat buyers with a holistic understanding and assessment of their housing and financing options before they commence their home buying journey. <br><a href="https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/press-releases/28042023-New-HDB-Flat-Eligibility-Letter" target="_blank">HDB Eligibility</a><br>Private property loans are subject to individual banking arrangements, comparisons is not useful, because of banking relationships between banks to individual clients.  Alternative financing from stocks, assets liquidations calculations, best seek financial consultation with a customized financial calculator.<br><a href="https://www.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property fiancial analysis</a>`;
+			document.getElementById("answer").innerHTML=`9 May 2023, HDB will introduce a new HDB Flat Eligibility (HFE) letter to provide flat buyers with a holistic understanding and assessment of their housing and financing options before they commence their home buying journey. <br><a href="https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/press-releases/28042023-New-HDB-Flat-Eligibility-Letter" target="_blank">HDB Eligibility</a><br>Private property loans are subject to individual banking arrangements, comparisons is not useful, because of banking relationships between banks to individual clients.  Alternative financing from stocks, assets liquidations calculations, best seek financial consultation with a customized financial calculator.<br><a href="https://blog.mckeen.sg/2022/11/property-transaction-consultation.html" target="_blank">property fiancial analysis</a>`;
 		}
 //WHY PTY
 	else if(inputText.toLowerCase().indexOf("invest")>-1){
