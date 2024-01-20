@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>365 app</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/style/dropdown.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body class="body">
     <h4 style="font-family: Arial; color: blue;">Realty365 Chatbot<br/></h4>
@@ -14,9 +15,17 @@
     <br>
     <input id="text_a" type="text;" size="50px;" />
     <p id="answer"></p>
-    <button class="dropbtn" onclick="myFunction()">Chat</button>
-    
+
+<div class="dropdown"><button class="dropbtn" onclick="myFunction()">Chat</button>
+  <div class="dropdown-content" id="myDropdown">    <!--input id="myInput" onkeyup="filterFunction2()" placeholder="Search.." type="text" /-->    
+    <a href="#" onclick="displayAnswer('p1')">• property tenure</a>
+    <a href="http://quote.mckeen.sg" rel="noopener noreferrer" target="_blank">• quotation app</a>
+    </div>
+
+</div>
     <script src="script.js"></script>
+    <script src="/dropdown/dropdown.js"></script>
+    <script src="/dropdown/prompt.js"></script>
     <p></p>
     
 </body>

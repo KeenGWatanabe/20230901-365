@@ -88,7 +88,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='SLA Land Titles Registry registers all property transactions in Singapore (landed, flats-private or HDB, commercial and industrial properties).  Land Titles Registry registers interests on the land, the land registry shows who owns the land and whether encumbrances (mortgages, charges) exists.<br><a href="http://realty365.mckeen.sg/2018/08/land-titles-registry.html" target="_blank">property title</a>';
 				}	
 				//PTY LAWS
-	else if(inputText.toLowerCase().indexOf("freehold")>-1||inputText.toLowerCase().indexOf("lease")>-1){
+	else if(inputText.toLowerCase().indexOf("freehold")>-1||inputText.toLowerCase().indexOf("lease")>-1||inputText.toLowerCase().indexOf("tenure")>-1){
 			document.getElementById("answer").innerHTML='In Singapore, there are 5 types of grants available to hold property title.<br>1. Estate in fee simple(freehold)<br>2. Estate in perpetuity(freehold)<br>3. Leases between 7-99 years<br>4. Tenancy agreements<br>5. Temporary occupation licences(TOL)<br><a href="http://realty365.mckeen.sg/2018/08/what-laws-allow-you-to-own-property.html" target="_blank">What laws allow you to own property?</a>';
 				}
 	
